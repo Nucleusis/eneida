@@ -8,11 +8,13 @@ body
     max-width: 960px
     position: absolute
     background-color: $background-color
+    font-size: 1.5em
 /* header */
 header
     float: left
     text-transform: uppercase
     color: $header-color
+    margin-bottom: 25px
     h2
         border: $border-width solid $header-color
         margin: 0 0
@@ -62,15 +64,26 @@ section
         text-transform: uppercase
 #tsar
     float: left
-    width: 500px
+    width: 450px
     height: 800px
     border: 1px solid black
-.project-logo
-    color: $header-color
-    border-color: $header-color
+.right-col
     float: left
-    $logo-height: 100px
-    $project-width: 25px
+    width: 450px
+    padding: 30px 10px 0px 40px
+.story
+    font-size: 0.8em
+.description
+    font-size: 0.4em
+    position: relative
+    top: 250px
+    left: 10px
+.project-logo
+    position: relative
+    top: 250px
+    color: $header-color
+    $logo-height: 120px
+    $project-width: 35px
     div
         display: inline-block
         border: $border-width solid $header-color
@@ -79,18 +92,19 @@ section
         position: relative
     div:first-of-type
         transform: rotate(-90deg)
-        transform-origin: 0% 100%
+        transform-origin: 37% -1%
         font-size: 1.2em
         padding: 2px 2px
         width: $logo-height
         height: $project-width
-        left: 2.5*$project-width
+        left: -39px
     div:last-of-type
-        font-size: 5em
+        font-size: 3em
         font-weight: bold
         padding: 2px 20px
+        width: 250px
         height: $logo-height
-        left: -2*$project-width - 2*$border-width
+        left: -85px
 
 
 /* end section */
