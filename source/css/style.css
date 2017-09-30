@@ -1,6 +1,7 @@
 /* header */
 header {
-  float: left; }
+  float: left;
+  text-transform: uppercase; }
   header h2 {
     border: 5px solid black;
     margin: 0 0;
@@ -33,6 +34,8 @@ aside {
 /* section */
 section {
   float: left; }
+  section h3 {
+    text-transform: uppercase; }
 
 #tsar {
   float: left;
