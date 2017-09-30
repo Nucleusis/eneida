@@ -28,7 +28,8 @@ header {
 /* end header */
 /* aside */
 aside {
-  float: right; }
+  float: right;
+  transform: rotate(-90deg); }
 
 /* end aside */
 /* section */
