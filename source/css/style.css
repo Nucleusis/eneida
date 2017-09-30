@@ -44,7 +44,7 @@ aside {
   transform: rotate(-90deg);
   overflow: hidden; }
   aside p {
-    font-size: 5em;
+    font-size: 6em;
     font-weight: bold;
     color: #6e5c4f;
     position: relative;
@@ -63,6 +63,31 @@ section {
   width: 500px;
   height: 800px;
   border: 1px solid black; }
+
+.project-logo {
+  color: #6e5c4f;
+  border-color: #6e5c4f;
+  float: left; }
+  .project-logo div {
+    display: inline-block;
+    border: 5px solid #6e5c4f;
+    text-align: center;
+    overflow: hidden;
+    position: relative; }
+  .project-logo div:first-of-type {
+    transform: rotate(-90deg);
+    transform-origin: 0% 100%;
+    font-size: 1.2em;
+    padding: 2px 2px;
+    width: 100px;
+    height: 25px;
+    left: 62.5px; }
+  .project-logo div:last-of-type {
+    font-size: 5em;
+    font-weight: bold;
+    padding: 2px 20px;
+    height: 100px;
+    left: -60px; }
 
 /* end section */
 /* footer */

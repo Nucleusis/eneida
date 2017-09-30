@@ -1,5 +1,6 @@
 $background-color: #f2eee2
 $header-color: #6e5c4f
+$border-width: 5px
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans')
 body
     font-family: 'Noto Sans', sans-serif
@@ -12,7 +13,6 @@ header
     float: left
     text-transform: uppercase
     color: $header-color
-    $border-width: 5px
     h2
         border: $border-width solid $header-color
         margin: 0 0
@@ -47,7 +47,7 @@ aside
     transform: rotate(-90deg)
     overflow: hidden
     p
-        font-size: 5em
+        font-size: 6em
         font-weight: bold
         color: $header-color
         position: relative
@@ -65,6 +65,33 @@ section
     width: 500px
     height: 800px
     border: 1px solid black
+.project-logo
+    color: $header-color
+    border-color: $header-color
+    float: left
+    $logo-height: 100px
+    $project-width: 25px
+    div
+        display: inline-block
+        border: $border-width solid $header-color
+        text-align: center
+        overflow: hidden
+        position: relative
+    div:first-of-type
+        transform: rotate(-90deg)
+        transform-origin: 0% 100%
+        font-size: 1.2em
+        padding: 2px 2px
+        width: $logo-height
+        height: $project-width
+        left: 2.5*$project-width
+    div:last-of-type
+        font-size: 5em
+        font-weight: bold
+        padding: 2px 20px
+        height: $logo-height
+        left: -2*$project-width - 2*$border-width
+
 
 /* end section */
 
