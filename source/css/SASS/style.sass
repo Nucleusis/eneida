@@ -1,4 +1,5 @@
 $background-color: white
+$header-color: #6e5c4f
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans')
 body
     font-family: 'Noto Sans', sans-serif
@@ -9,9 +10,10 @@ body
 header
     float: left
     text-transform: uppercase
+    color: $header-color
     $border-width: 5px
     h2
-        border: $border-width solid black
+        border: $border-width solid $header-color
         margin: 0 0
         display: inline-block
         background-color: $background-color
@@ -46,6 +48,7 @@ aside
     p
         font-size: 5em
         font-weight: bold
+        color: $header-color
         position: relative
         right: 0
         margin-bottom: -0.31em

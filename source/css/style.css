@@ -8,9 +8,10 @@ body {
 /* header */
 header {
   float: left;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #6e5c4f; }
   header h2 {
-    border: 5px solid black;
+    border: 5px solid #6e5c4f;
     margin: 0 0;
     display: inline-block;
     background-color: white;
@@ -44,6 +45,7 @@ aside {
   aside p {
     font-size: 5em;
     font-weight: bold;
+    color: #6e5c4f;
     position: relative;
     right: 0;
     margin-bottom: -0.31em; }
