@@ -3,7 +3,8 @@ body {
   font-family: "Noto Sans", sans-serif;
   padding: 20px 10px;
   max-width: 960px;
-  position: absolute; }
+  position: absolute;
+  background-color: #f2eee2; }
 
 /* header */
 header {
@@ -14,7 +15,7 @@ header {
     border: 5px solid #6e5c4f;
     margin: 0 0;
     display: inline-block;
-    background-color: white;
+    background-color: #f2eee2;
     padding: 1px 5px; }
   header div {
     margin: 0 0;
