@@ -1,0 +1,26 @@
+/* header */
+header {
+  float: left; }
+
+/* end header */
+/* aside */
+aside {
+  float: right; }
+
+/* end aside */
+/* section */
+section {
+  float: left; }
+
+#tsar {
+  float: left; }
+
+.info {
+  float: right; }
+
+/* end section */
+/* footer */
+footer {
+  float: left; }
+
+/* end footer */
