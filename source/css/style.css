@@ -1,6 +1,28 @@
 /* header */
 header {
   float: left; }
+  header h2 {
+    border: 5px solid black;
+    margin: 0 0;
+    display: inline-block;
+    background-color: white;
+    padding: 1px 5px; }
+  header div {
+    margin: 0 0;
+    position: relative; }
+  header div:nth-child(2),
+  header div:nth-child(3),
+  header div:nth-child(4) {
+    margin: -5px 0; }
+  header div:nth-child(2) h2,
+  header div:nth-child(3) h2 {
+    border-top: none; }
+  header div:nth-child(3) {
+    z-index: 1; }
+    header div:nth-child(3) h2 {
+      border-bottom: none; }
+  header div:last-child {
+    margin-bottom: 10px; }
 
 /* end header */
 /* aside */
