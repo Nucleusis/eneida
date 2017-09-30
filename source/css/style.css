@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 body {
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Noto Sans", sans-serif;
+  padding: 20px 10px; }
 
 /* header */
 header {
@@ -32,8 +33,19 @@ header {
 /* end header */
 /* aside */
 aside {
-  float: right;
-  transform: rotate(-90deg); }
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: -10px 0;
+  padding: 0 0;
+  transform: rotate(-90deg);
+  overflow: hidden; }
+  aside p {
+    font-size: 5em;
+    font-weight: bold;
+    position: relative;
+    bottom: -0.77em;
+    right: 0; }
 
 /* end aside */
 /* section */

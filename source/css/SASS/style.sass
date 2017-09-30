@@ -2,6 +2,7 @@ $background-color: white
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans')
 body
     font-family: 'Noto Sans', sans-serif
+    padding: 20px 10px
 /* header */
 header
     float: left
@@ -34,8 +35,19 @@ header
 
 /* aside */
 aside
-    float: right
+    position: absolute
+    top: 0
+    right: 0
+    margin: -10px 0
+    padding: 0 0
     transform: rotate(-90deg)
+    overflow: hidden
+    p
+        font-size: 5em
+        font-weight: bold
+        position: relative
+        bottom: -0.77em
+        right: 0
 /* end aside */
 
 /* section */
